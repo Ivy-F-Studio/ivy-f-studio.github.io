@@ -53,3 +53,7 @@ body {
     .MainBody .download ul {
         padding-left: 40px;
     }
+
+.imgdisplay{ display:block;text-align:center; position:relative;}
+.imgdisplay img{ display:none;}
+.imgdisplay:hover img{ position:absolute; left:50%; top:0; margin-left:-115px; padding-top:60px; display:block;}
