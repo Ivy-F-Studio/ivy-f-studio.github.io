@@ -1,4 +1,4 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,12 +15,21 @@
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header"> <a class="navbar-brand" href="#">F-Studio</a> </div>
-            <div id="navbar" class="collapse navbar-collapse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-header"> <a class="navbar-brand" href="#">F-Studio</a> </div>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px;">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html" title="主页"> Home </a></li>
                     <li><a href="dl.html" title="下载">Downloads</a></li>
-					<li><a href="help.html" title="帮助">Help</a></li>
+                    <li><a href="help.html" title="帮助">Help</a></li>
                     <li><a href="about.html" title="关于我们">About us</a></li>
                 </ul>
             </div>
@@ -33,19 +42,19 @@
             <div>
                 <h3>F</h3>
                 <ul>
-                    <li>FlyHigher —— 基于控制台的小助手 <a href="flyhigher_dl.html">[了解更多]</a> </li>
+                    <li>FlyHigher —— 基于控制台的小助手 <a href="./flyhigher_dl.html">[了解更多]</a> </li>
                 </ul>
                 <h3>G</h3>
                 <ul>
-                    <li>Glossary —— 基于控制台的生词本 <a href="glossary_dl.html">[了解更多]</a> </li>
+                    <li>Glossary —— 基于控制台的生词本 <a href="./glossary_dl.html">[了解更多]</a> </li>
                 </ul>
                 <h3>M</h3>
                 <ul>
-                    <li>Minesweeper —— 基于控制台的扫雷游戏 <a href="minesweeper_dl.html">[了解更多]</a> </li>
+                    <li>Minesweeper —— 基于控制台的扫雷游戏 <a href="./minesweeper_dl.html">[了解更多]</a> </li>
                 </ul>
                 <h3>S</h3>
                 <ul>
-                    <li>Snake —— 基于控制台的贪吃蛇小游戏 <a href="snake_dl.html">[了解更多]</a> </li>
+                    <li>Snake —— 基于控制台的贪吃蛇小游戏 <a href="./snake_dl.html">[了解更多]</a> </li>
                 </ul>
             </div>
         </div>
@@ -56,5 +65,7 @@
             <p class="pull-centre">© 2018 f-studio. All rights reserved.</p>
         </div>
     </footer>
+	<script src="./Files/js/jquery.min.js"></script>
+    <script src="./Files/js/bootstrap.min.js"></script>
 </body>
 </html>
