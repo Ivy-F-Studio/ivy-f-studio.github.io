@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="F-Studio website">
+    <meta name="keywords" content="F-Studio,常青藤编程团队,FlyHigher,Minesweeper,Snake,Glossary,WIFI,FLY,SaltedFish,Lucy">
+    <meta name="author" content="F-Studio">
+    <link href="../../Files/CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="../../Files/CSS/blog.css" rel="stylesheet">
+    <link href="../../Files/CSS/DIY.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../../Files/IMG/f-studio.ico" />
+	<!--代码高亮-->
+	<script type="text/javascript" src="../../Files/Code/scripts/shCore.js"></script>
+	<script type="text/javascript" src="../../Files/Code/scripts/shBrushJScript.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../Files/Code/styles/shCoreDefault.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+	
+    <title>Downloads | F-Studio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-header"> <a class="navbar-brand" href="#">F-Studio</a> </div>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="http://f-studio.top/#" title="主页"> Home </a>
+                        </li>
+                        <li>
+                            <a href="http://f-studio.top/#worklist" title="下载">Downloads</a>
+                        </li>
+                        <li>
+                            <a href="https://bbs.fanciers.site/" id="bbs" title="F-Studio'sBBS">BBS</a>
+                        </li>
+                        <li>
+                            <a href="http://f-studio.top/#about" title="关于我们">About us</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <br>
+    <div class="MainBody">
+        <div class="download">
+            <h1>LockFoodLevel</h1>
+            <div>
+                <ul>
+                    <li>英文名称:LockFoodLevel</li>
+					<li>中文名称:锁定饥饿值</li>
+					<li>作者:WiFi(MC:WiFi_China)</li>
+					<li>最新版本:1.0.0</li>
+					<li>适用服务端:|<a href="https://bukkit.org/" target="_blank">CraftBukkit</a>| |<a href="https://www.spigotmc.org/" target="_blank">Spigot</a>| </li>
+					<li>适用版本:1.12(只测试过这个版本，理论支持到1.8)</li>
+					<li>类型:功能</li>
+					<li>前置插件:很明显，这样简单的插件不需要前置插件</li>
+                </ul>
+				<hr/>
+				<h3>简介</h3>
+				<ul>
+                    <li>当做服务器时需要锁定玩家的饥饿度(如PVP,PVE),这个插件可能是个不错的选择。</li>
+                </ul>
+				<hr/>
+				<h3>功能</h3>
+				<ul>
+                    <li>锁定玩家的饥饿值为指定的数</li>
+                </ul>
+				<hr/>
+				<h3>配置文件</h3>
+				<ul>
+					<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#YAML">点我展开</button>
+					<div id="YAML" class="collapse">
+						<pre class="brush: js;">
+# 锁定饥饿值插件
+# 作者:WiFi_China
+# 你可以访问我们的网站获取更新:https://f-studio.top/
+
+# 是否启用
+Enable: true
+
+# 锁定的饥饿值
+FoodLevel: 10
+
+# Debug开关
+Debug: false
+
+# 命令提示
+Wrong: '>>>&4&l命令错误&r'
+SetSuccess: '>>>&2&lFoodLevel已成功设置为：&r'
+Enable-on: '>>>&1&l已启用锁定饥饿值&r'
+Enable-off: '>>>&1&l已禁用锁定饥饿值&r'
+Debug-on: '>>>&1&l已启用Debug&r'
+Debug-off: '>>>&1&l已禁用Debug&r'
+NoPermission: '>>>&4&l你没有权限&r'
+
+About1: '&l&4▁&c▂&6▃&e▄&2▅&a▇&b▇&3█&1锁&9定&d饥&9饿&1值&3█&b▇&a▆&2▅&e▄&6▃&c▂&4▁&r'
+About2: '&b用于锁定饥饿值的小工具&r'
+About3: '&b作者:WiFi_China&r'
+About4: '&b你可以前往f-studio.top检查更新&r'
+About5: '&6/lfl set <数值> &e设定饥饿值&r'
+About6: '&6/lfl enable &e启用/禁用插件&r'
+About7: '&6/lfl debug &e输出信息&r'
+About8: ' '
+
+ShowFoodLevel: '>&d当前饥饿值锁定为：&r'
+ShowEnable-on: '>&d当前插件状态：&2开启&r'
+ShowEnable-off: '>&d当前插件状态：&4禁用&r'
+ShowDebug-on: '>&dDebug：&4开&r'
+ShowDebug-off: '>&dDebug：&2关&r'</pre>
+					</div>
+                </ul>
+				<hr/>
+				<h3>权限节点</h3>
+				<ul>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#Permission">点我展开</button>
+					<div id="Permission" class="collapse">
+						<pre class="brush: js;">LockFoodLevel.use #使用权</pre>
+					</div>
+                </ul>
+				<hr/>
+				<h3>插件命令</h3>
+				<ul>
+					<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#Command">点我展开</button>
+					<div id="Command" class="collapse">
+						<pre class="brush: js;">
+/lfl set <数值> #设定饥饿值
+/lfl enable #启用/禁用插件
+/lfl debug #输出信息</pre>
+					</div>
+                </ul>
+				<hr/>
+				<h3>插件截图</h3>
+				<ul>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#IMG">点我展开</button>
+					<div id="IMG" class="collapse">
+						<li><img src="../../Files/IMG/MCPlugins/LockFoodLevel/v1.0.0/01.png" alt="LockFoodLevel-01"</li>
+						<li><img src="../../Files/IMG/MCPlugins/LockFoodLevel/v1.0.0/02.png" alt="LockFoodLevel-02"</li>
+					</div>
+				</ul>
+				<hr/>
+				<h3><a href="../DownLoad/?name=LockFoodLevel&size=6KB&version=v1.0.0">插件下载</a></h3>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer class="blog-footer">
+        <div class="container">
+            <p class="pull-centre">© 2018 f-studio. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../../Files/js/jquery.min.js"></script>
+    <script src="../../Files/js/bootstrap.min.js"></script>
+</body>
+</html>

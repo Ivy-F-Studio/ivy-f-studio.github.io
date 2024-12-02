@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /*
+Allow: *
+Crawl-delay: 60
+Disallow: /.well-known/
+Disallow: /Files/*
+Disallow: /dl/jump/
+Disallow: /dl/jump/*

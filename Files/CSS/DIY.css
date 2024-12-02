@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:Arial;
+    font-family: Arial;
 }
 
 body {
@@ -14,6 +14,11 @@ body {
     height: 85%;
     margin: auto auto;
     margin-top: 10px;
+    text-align: center;
+}
+
+.Form{
+    text-align: center;
 }
 
 .Form a {
@@ -27,11 +32,11 @@ body {
     }
 
 .MainBody {
-    width: 90%;
+    width: 800px;
     margin: 30px auto;
     background-color: #fff;
     border-radius: 8px;
-    padding:10px;
+    padding: 10px;
 }
 
     .MainBody img {
@@ -54,6 +59,132 @@ body {
         padding-left: 40px;
     }
 
-.imgdisplay{ display:block;text-align:center; position:relative;}
-.imgdisplay img{ display:none;}
-.imgdisplay:hover img{ position:absolute; left:50%; top:0; margin-left:-115px; padding-top:60px; display:block;}
+body h1 {
+    font-size: 3rem;
+}
+
+.WorkTitle {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    font-size: inherit;
+    text-align: center;
+}
+
+    .WorkTitle h2 {
+        line-height: 70px;
+    }
+
+.InfoCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+    .InfoCards a {
+        text-decoration: none;
+        color: #000;
+    }
+
+        .InfoCards a:hover {
+            text-decoration: none;
+            color: #808080;
+        }
+
+    .InfoCards .card {
+        border-radius: 8px;
+        width: 30%;
+        height: auto;
+        background-color: white;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+        .InfoCards .card img {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin: 10px 10px;
+            width: 95%;
+            text-align: left;
+        }
+
+        .InfoCards .card .title {
+            margin: 10px;
+            margin-left: 20px;
+            text-align: left;
+            font-size: 20px;
+        }
+
+        .InfoCards .card .info {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 25px;
+            font-size: 14px;
+        }
+
+            .InfoCards .card .info a {
+                text-decoration: none;
+                color: #0094ff;
+            }
+
+                .InfoCards .card .info a:hover {
+                    text-decoration: none;
+                    color: #0026ff;
+                }
+
+        .InfoCards .card .types {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+
+            .InfoCards .card .types .help {
+                margin-left: 10px;
+                font-size: 12px;
+                color: #4800ff;
+            }
+
+                .InfoCards .card .types .help .a {
+                    color: #4800ff;
+                }
+
+        .InfoCards .card .type {
+            margin: 5px;
+            font-size: 15px;
+        }
+
+
+.imgdisplay {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+    .imgdisplay img {
+        display: none;
+    }
+
+    .imgdisplay:hover img {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        margin-left: -115px;
+        padding-top: 60px;
+        display: block;
+    }
+
+    @media(max-width:600px)
+    {
+        .MainBody {
+            width: 85%;
+            margin: 30px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px;
+        }
+    }

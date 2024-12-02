@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Created By http://www.zhetao.com/sitemapcreator,  URLs: 15 Generated at: 2019-08-30 10:36:31 -->
+
+  <url>
+    <loc>https://www.f-studio.top/dl/snake.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/jump?name=Snake</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/flyhigher.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/jump?name=FlyHigher</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/minesweeper.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/jump?name=Minesweeper</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/2048.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/jump?name=2048</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/index.html</loc>
+    <priority>0.76</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/glossary.html</loc>
+    <priority>0.74</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/jump?name=Glossary</loc>
+    <priority>0.74</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/fight.html</loc>
+    <priority>0.74</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/dl/jump?name=Fight</loc>
+    <priority>0.74</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/help/snake.html</loc>
+    <priority>0.72</priority>
+  </url>
+
+  <url>
+    <loc>https://www.f-studio.top/cdn-cgi/l/email-protection</loc>
+    <priority>0.71</priority>
+  </url>
+
+</urlset>

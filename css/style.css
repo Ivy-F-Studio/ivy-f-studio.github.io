@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+.linkout{
+	padding-right:20px;
+	background:url(https://f-studio.top/img/linkout.gif) center right no-repeat;
+}
+
+.black {
+	color: black;
+}
+
+.hola-card:hover {
+	box-shadow: rgba(0, 0, 0, .2) 0 10px 30px;
+}
+
+.hola-card-list:hover {
+	box-shadow: 0 0 25px rgba(0, 0, 0, .1);
+}
+
+.hola-card-list-item:hover {
+	box-shadow: rgba(0, 0, 0, .2) 0 10px 30px;
+	background-image: linear-gradient(135deg, #3C8CE7 10%, #00EAFF 100%);
+}
+
+.hola-button.hola-button-primary {
+	background-image: linear-gradient(135deg, #3C8CE7 10%, #00EAFF 100%);
+}
+
+#about,#download {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:700px) {
+	.hola-hero {
+		padding: 15px;
+    }
+
+	.main {
+		padding-top: 80px;
+    }
+
+	.hola-footer p {
+		padding: 15px;
+    }
+}
+
+@media (min-width:700px) {
+	.flex-column-stack {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.about-part {
+		width: 417.33px;
+	}
+}

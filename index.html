@@ -1,56 +1,172 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="zh-cn">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="F-Studio website">
-    <meta name="keywords" content="F-Studio,常青藤编程团队,FlyHigher,Minesweeper, Snake,Glossary,WIFI,FLY,SaltedFish,Lucy">
+    <meta charset="UTF-8">
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="F-Studio website.我们是F-Studio，一群爱好编程的学生党。这个工作室是我们于2018年2月创建的，业余维护……欢迎来围观！">
+    <meta name="keywords" content="F-Studio,常青藤编程团队,FlyHigher,Minesweeper, Snake,Glossary,WIFI,FLY,SaltedFish,Lucy,WilliamYan,williamyxn,W_YXN">
     <meta name="author" content="F-Studio">
-    <link href="./Files/CSS/bootstrap.min.css" rel="stylesheet" />
-    <link href="./Files/CSS/blog.css" rel="stylesheet" />
-    <link href="./Files/CSS/DIY.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="./Files/IMG/f-studio.ico" />
-    <title>Home | F-Studio</title>
+    <meta name="baidu-site-verification" content="tjnrSldwMW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="canonical" href="http://f-studio.is-best.net/" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/holakit@0.23.0/dist/holakit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gradient.css">
+    <title>F-Studio</title>
+	<!--<script src="./Files/js/one_word.js"></script>-->
 </head>
 
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="navbar-header"> <a class="navbar-brand" href="#">F-Studio</a> </div>
+<body class="hola-body-typography hola-grey-bg">
+    <header class="hola-navbar hola-navbar-transparent hola-navbar-darkbg">
+        <div class="hola-container" id="home">
+            <nav class="hola-navbar-main">
+                <a href="#home" class="hola-navbar-brand">F-Studio</a>
+            </nav>
+            <input type="checkbox" class="hola-navbar-toggle" id="navbar-toggle">
+            <label for="navbar-toggle" class="hola-navbar-toggle-label"></label>
+            <nav class="hola-navbar-sub">
+                <a href="#home" title="首页">Home</a>
+                <a href="#download" title="下载">Download</a>
+                <a href="https://bbs.f-studio.top/">BBS</a>
+                <a href="#about" title="关于">About</a>
+                <a href="https://news.f-studio.top" title="News">News</a>
+                <a href="https://pan.fanciers.site/" title="网盘" target="_blank">Pan</a>
+            </nav>
+        </div>
+    </header>
+    <div class="hola-hero hola-hero-dark-bg hola-hero-height-extended grad-1">
+        <div class="hola-container hola-hero-content">
+            <h1>F-Studio</h1>
+            <!--<p id="oneword">哎呀！每日一句获取中···_(:τ」∠)_</p>-->
+            <!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+            <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+            <!--End-->
+        </div>
+    </div>
+    <div class="hola-container main">
+        <span class="hola-badge hola-badge-light hola-badge-radii" id="download">
+            <h3 class="hola-card-stack-title hola-card-stack-title-light">『下载』DOWNLOAD</h3>
+        </span>
+        <div class="hola-columns hola-card-stack">
+            <div class="hola-columns-item">
+                <div class="hola-card hola-card-with-image">
+                    <img src="img/apps/covers/Snake.webp" alt="" class="hola-image" title="">
+                    <h2 class="hola-card-title">Snake</h2>
+                    <p>基于控制台的使用C++编写的贪吃蛇游戏</p>
+                    <a href="dl/jump?name=Snake" target="_blank"><button
+                            class="hola-button hola-button-primary">立即下载</button></a>
+                    <a href="dl/snake.html"><button
+                            class="hola-button hola-button-normal">了解更多</button></a>
+                </div>
             </div>
-
-            <div id="navbar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px;">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html" title="主页"> Home </a></li>
-                    <li><a href="dl.html" title="下载">Downloads</a></li>
-                    <li><a href="help.html" title="帮助">Help</a></li>
-                    <li><a href="about.html" title="关于我们">About us</a></li>
-                </ul>
+            <div class="hola-columns-item">
+                <div class="hola-card hola-card-with-image">
+                    <img src="img/apps/covers/FlyHigher.webp" alt="" class="hola-image" title="">
+                    <h2 class="hola-card-title">FlyHigher</h2>
+                    <p>基于控制台的使用C++编写的系统小助手</p>
+                    <a href="dl/jump?name=FlyHigher" target="_blank"><button
+                            class="hola-button hola-button-primary">立即下载</button></a>
+                    <a href="dl/flyhigher.html"><button
+                            class="hola-button hola-button-normal">了解更多</button></a>
+                </div>
+            </div>
+            <div class="hola-columns-item">
+                <div class="hola-card hola-card-with-image">
+                    <img src="img/apps/covers/Minesweeper.webp" alt="" class="hola-image" title="">
+                    <h2 class="hola-card-title">Minesweeper</h2>
+                    <p>基于控制台的使用C++编写的扫雷游戏</p>
+                    <a href="dl/jump?name=Minesweeper" target="_blank"><button
+                            class="hola-button hola-button-primary">立即下载</button></a>
+                    <a href="dl/minesweeper.html"><button
+                            class="hola-button hola-button-normal">了解更多</button></a>
+                </div>
+            </div>
+            <div class="hola-columns-item">
+                <div class="hola-card hola-card-with-image">
+                    <img src="img/apps/covers/2048.webp" alt="" class="hola-image" title="">
+                    <h2 class="hola-card-title">2048</h2>
+                    <p>基于控制台的使用C++编写的2048小游戏</p>
+                    <a href="dl/jump?name=2048" target="_blank"><button
+                            class="hola-button hola-button-primary">立即下载</button></a>
+                    <a href="dl/2048.html"><button
+                            class="hola-button hola-button-normal">了解更多</button></a>
+                </div>
+            </div>
+            <div class="hola-columns-item">
+                <div class="hola-card hola-card-with-image">
+                    <img src="img/apps/covers/Glossary.webp" alt="" class="hola-image" title="">
+                    <h2 class="hola-card-title">Glossary</h2>
+                    <p>基于控制台的使用C++编写的背单词小助手</p>
+                    <a href="dl/jump?name=Glossary" target="_blank"><button
+                            class="hola-button hola-button-primary">立即下载</button></a>
+                    <a href="dl/glossary.html"><button
+                            class="hola-button hola-button-normal">了解更多</button></a>
+                </div>
+            </div>
+            <div class="hola-columns-item">
+                <div class="hola-card hola-card-with-image">
+                    <img src="img/apps/covers/Fight.webp" alt="" class="hola-image" title="">
+                    <h2 class="hola-card-title">Fight</h2>
+                    <p>基于控制台的使用C++编写的一款战斗游戏</p>
+                    <a href="dl/jump?name=Fight" target="_blank"><button
+                            class="hola-button hola-button-primary">立即下载</button></a>
+                    <a href="dl/fight.html"><button
+                            class="hola-button hola-button-normal">了解更多</button></a>
+                </div>
+            </div>
+			<div class="hola-columns-item">
+                <div class="hola-card hola-card-with-image">
+                    <img src="img/apps/covers/DesktopPony.webp" alt="" class="hola-image" title="">
+                    <h2 class="hola-card-title">DesktopPony</h2>
+                    <p>可以自定义的小马桌宠</p>
+                    <a href="http://desktoppony.22web.org"><button
+                            class="hola-button hola-button-primary">了解更多</button></a>
+					<a href="https://github.com/WisteFinch/DesktopPony"><button
+                            class="hola-button hola-button-normal">Github</button></a>
+					<p>本程序在<a href="https://github.com/WisteFinch/DesktopPony/blob/master/LICENSE" class="linkout" target="_blank">MIT</a>协议之条款下提供</p>
+                </div>
             </div>
         </div>
-    </nav>
-    <div class="MainBody">
-        <div style=" text-align:center;"> <img src="./Files/IMG/F-Stuido Background.png" alt="F-Studio"> </div>
-        <center>
-            <h1> 欢迎访问我们的网站! </h1>
-            <br />
-            <br />
-        </center>
+        <span class="hola-badge hola-badge-light hola-badge-radii" id="about">
+            <h3 class="hola-card-stack-title hola-card-stack-title-light">『关于』ABOUT&nbsp;</h3>
+        </span>
+        <div class="hola-columns hola-card-stack flex-column-stack">
+            <div class="hola-columns-item about-part">
+                <div class="hola-card hola-card-with-image">
+                    <img src="img/f-studio_poster.webp" alt="" class="hola-image">
+                    <p>我们是一群爱好编程的学生党， 这个工作室是我们于2018年2月创建的，业余维护...</p>
+                </div>
+            </div>
+            <div class="hola-columns-item about-part">
+                <div class="hola-card">
+                    <h2 class="hola-card-title">成员</h2>
+                    <ul class="hola-vmenu">
+                        <li class="hola-vmenu-item"><a href="https://blog.f-studio.top/fly" target="_blank"><span
+                                    class="hola-badge grad-3">FLY</span>想要飞上天-来自B612</a></li>
+                        <li class="hola-vmenu-item"><a href="https://blog.f-studio.top/lucy" target="_blank"><span
+                                    class="hola-badge grad-3">Lucy</span>窝主向你问好</a></li>
+                        <li class="hola-vmenu-item"><a href="https://blocklune.github.io/" target="_blank"><span
+                                    class="hola-badge grad-3">SaltedFish</span>纯正咸鱼干</a></li>
+                        <li class="hola-vmenu-item"><a href="#" target="_blank"><span
+                                    class="hola-badge grad-3">WIFI</span>Oki doki loki</a></li>
+                        <li class="hola-vmenu-item"><a href="https://blog.f-studio.top/W_YXN" target="_blank"><span
+                                    class="hola-badge grad-3">W_YXN</span>是个好人</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <br />
-    <footer class="blog-footer">
-        <div class="container">
-            <p class="pull-centre">© 2018 f-studio. All rights reserved.</p>
+
+    <footer class="hola-footer grad-2">
+        <div class="hola-container">
+            <p title="常青藤实验学校 常青藤人">永远向上 永不放弃 永无止境</p>
+            <p>&copy;2018-2019 <a href="https://version1.f-studio.top/" title="返回旧版">F-Studio</a></p>
         </div>
     </footer>
-	<script src="./Files/js/jquery.min.js"></script>
-    <script src="./Files/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="dl.css" />
+    <title>Download page</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+    <script src="jump.js" type="text/javascript"></script>
+</head>
+<body onload="Refresh()">
+    <div class="card">
+        <div class="texts">
+            <h2 align="center">请点击图片开始下载</h2>
+            <a class="button" id="download" title="前往下载">
+                <center>
+                    <img src="button.ico">
+                </center>
+            </a>
+            <p>下载文件名称：<b id="filename">xxx</b></p>
+            <p>下载文件大小：<b id="filesize">xxx</b></p>
+            <p>下载文件版本：<b id="fileversion">xxx</b></p>
+            <p>若无法开始下载请<u><a href="javascript:void(0);" onclick="window.location='./files/' + getParam('name') + '_' + getParam('version') + '.jar'" title="备用下载通道">点击这里</a></u></p>
+            <br />
+            <p align="center"><a id="download-old">点我下载旧版本</a></p>
+        </div>
+    </div>
+    <footer>(c)2018 F-Studio.All rights reserved.</footer>
+</body> 
+</html>
